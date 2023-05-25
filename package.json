@@ -1,0 +1,31 @@
+{
+  "name": "a11y-metrics-checks",
+  "version": "0.1.0",
+  "description": "A11y automation checks Ember apps",
+  "main": "main.js",
+  "scripts": {
+    "checks": "./scripts/checks",
+    "lint": "yarn eslint"
+  },
+  "keywords": [],
+  "author": "Melanie Sumner <melanie.sumner@hey.com>",
+  "license": "MPL-2.0",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melsumner/a11y-metrics-checks.git"
+  },
+  "devDependencies": {
+    "args": "^5.0.3",
+    "axios": "^1.4.0",
+    "chalk": "^4.1.2",
+    "eslint": "^7.32.0",
+    "fs-extra": "^10.0.0",
+    "glob": "^10.2.6",
+    "read-last-lines": "^1.8.0",
+    "simple-git": "^3.18.0"
+  }
+}

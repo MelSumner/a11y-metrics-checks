@@ -1,5 +1,4 @@
 const fs = require('fs');
-const glob = require('glob');
 const axios = require('axios');
 
 // Specify the URL of the package.json file

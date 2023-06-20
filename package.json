@@ -4,7 +4,6 @@
   "description": "A11y automation checks Ember apps",
   "main": "main.js",
   "scripts": {
-    "checks": "./scripts/checks",
     "lint": "yarn eslint"
   },
   "keywords": [],
@@ -26,6 +25,11 @@
     "fs-extra": "^10.0.0",
     "glob": "^10.2.6",
     "read-last-lines": "^1.8.0",
-    "simple-git": "^3.18.0"
+    "simple-git": "^3.18.0",
+    "strip-ansi": "^7.1.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "esm": "^3.2.25"
   }
 }

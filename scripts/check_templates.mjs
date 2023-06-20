@@ -1,3 +1,6 @@
+// check_templates.mjs
+// this would be installed in the repo and run from the command line
+
 import { spawn } from 'child_process';
 import fs from 'fs/promises';
 import chalk from 'chalk';

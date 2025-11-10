@@ -23,7 +23,7 @@
     "chalk": "^5.0.0",
     "eslint": "^7.32.0",
     "fs-extra": "^10.0.0",
-    "glob": "^10.2.6",
+    "glob": "^11.0.0",
     "read-last-lines": "^1.8.0",
     "simple-git": "^3.18.0",
     "strip-ansi": "^7.1.0"
